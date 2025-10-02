@@ -1,0 +1,4 @@
+Invoking command in '/home/safwan/krishi_cobot_ws/build/eyantra_warehouse': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/safwan/krishi_cobot_ws/build/eyantra_warehouse -- -j4 -l4
+Invoked command in '/home/safwan/krishi_cobot_ws/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/safwan/krishi_cobot_ws/build/eyantra_warehouse -- -j4 -l4
+Invoking command in '/home/safwan/krishi_cobot_ws/build/eyantra_warehouse': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/safwan/krishi_cobot_ws/build/eyantra_warehouse
+Invoked command in '/home/safwan/krishi_cobot_ws/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/safwan/krishi_cobot_ws/build/eyantra_warehouse

@@ -1,0 +1,197 @@
+[0.073s] Invoking command in '/home/safwan/krishi_cobot_ws/build/eyantra_warehouse': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/safwan/krishi_cobot_ws/src/eyrc-25-26-krishi-cobot/eyantra_warehouse -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/safwan/krishi_cobot_ws/install/eyantra_warehouse
+[0.484s] -- The C compiler identification is GNU 11.4.0
+[0.797s] -- The CXX compiler identification is GNU 11.4.0
+[0.836s] -- Detecting C compiler ABI info
+[1.274s] -- Detecting C compiler ABI info - done
+[1.313s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.314s] -- Detecting C compile features
+[1.316s] -- Detecting C compile features - done
+[1.327s] -- Detecting CXX compiler ABI info
+[1.815s] -- Detecting CXX compiler ABI info - done
+[1.853s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.853s] -- Detecting CXX compile features
+[1.854s] -- Detecting CXX compile features - done
+[1.861s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.583s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.002s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.166s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.406s] -- Configuring done
+[3.411s] -- Generating done
+[3.417s] -- Build files have been written to: /home/safwan/krishi_cobot_ws/build/eyantra_warehouse
+[3.433s] Invoked command in '/home/safwan/krishi_cobot_ws/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/safwan/krishi_cobot_ws/src/eyrc-25-26-krishi-cobot/eyantra_warehouse -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/safwan/krishi_cobot_ws/install/eyantra_warehouse
+[3.445s] Invoking command in '/home/safwan/krishi_cobot_ws/build/eyantra_warehouse': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/safwan/krishi_cobot_ws/build/eyantra_warehouse -- -j4 -l4
+[3.620s] Invoked command in '/home/safwan/krishi_cobot_ws/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/safwan/krishi_cobot_ws/build/eyantra_warehouse -- -j4 -l4
+[3.669s] Invoking command in '/home/safwan/krishi_cobot_ws/build/eyantra_warehouse': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/safwan/krishi_cobot_ws/build/eyantra_warehouse
+[3.733s] -- Install configuration: ""
+[3.736s] -- Execute custom install script
+[3.737s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//launch/task0.launch.py
+[3.820s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//launch/task1.launch.py
+[3.897s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//launch/task1_bonus.launch.py
+[3.958s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//worlds/eyantra_warehouse_task0.world
+[3.995s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//worlds/eyantra_warehouse_task1.world
+[4.027s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//worlds/eyantra_warehouse_task1_bonus.world
+[4.082s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/meshes/TrashBin.mtl
+[4.127s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/meshes/TrashBin.obj
+[4.162s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/meshes/TrashBin_Diffuse.png
+[4.206s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/model.config
+[4.276s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/model.sdf
+[4.347s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/thumbnails/1.png
+[4.401s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/thumbnails/2.png
+[4.465s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/thumbnails/3.png
+[4.519s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/thumbnails/4.png
+[4.549s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/TrashBin/thumbnails/5.png
+[4.608s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/arm_base/meshes/arm_base_default.dae
+[4.677s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/arm_base/model.config
+[4.740s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/arm_base/model.sdf
+[4.786s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/bad_fruit/meshes/bad_fruit.mtl
+[4.834s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/bad_fruit/meshes/bad_fruit.obj
+[4.915s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/bad_fruit/model.config
+[4.983s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/bad_fruit/model.sdf
+[5.048s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/conveyor_belt/meshes/conveyor_belt.dae
+[5.117s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/conveyor_belt/meshes/conveyor_belt.stl
+[5.182s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/conveyor_belt/model.config
+[5.212s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/conveyor_belt/model.sdf
+[5.239s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/dock_shape/meshes/dock_shape.dae
+[5.294s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/dock_shape/meshes/dock_shape.mtl
+[5.387s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/dock_shape/meshes/dock_shape.obj
+[5.416s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/dock_shape/model.config
+[5.452s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/dock_shape/model.sdf
+[5.509s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fertiliser_can/meshes/Fertiliser.dae
+[5.544s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fertiliser_can/meshes/aruco_tag.jpg
+[5.571s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fertiliser_can/model.config
+[5.604s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fertiliser_can/model.sdf
+[5.645s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fruit_tray/meshes/Fruit_Tray.dae
+[5.681s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fruit_tray/meshes/greenhouse_wooden_floor.png.001.png
+[5.708s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fruit_tray/model.config
+[5.738s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/fruit_tray/model.sdf
+[5.796s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/good_fruit/meshes/good_fruit.mtl
+[5.844s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/good_fruit/meshes/good_fruit.obj
+[5.920s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/good_fruit/model.config
+[5.993s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/good_fruit/model.sdf
+[6.057s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ground_plane/model.config
+[6.093s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/ground_plane/model.sdf
+[6.119s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/longer_conveyor_belt/meshes/longer_conveyor_belt.dae
+[6.150s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/longer_conveyor_belt/model.config
+[6.187s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/longer_conveyor_belt/model.sdf
+[6.236s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/plant_red_yellow_bell_peppers_trough/meshes/KB_plant_red_yellow_bell_pepper.dae
+[6.269s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/plant_red_yellow_bell_peppers_trough/meshes/leaf.jpg
+[6.295s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/plant_red_yellow_bell_peppers_trough/meshes/soil-texture-png-3.png
+[6.318s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/plant_red_yellow_bell_peppers_trough/model.config
+[6.349s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/plant_red_yellow_bell_peppers_trough/model.sdf
+[6.408s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/rack/meshes/brushedsteel4.jpg
+[6.438s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/rack/meshes/brushedsteel_bg.jpg
+[6.466s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/rack/meshes/rack.dae
+[6.493s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/rack/meshes/rack.stl
+[6.526s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/rack/model.config
+[6.554s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/rack/model.sdf
+[6.672s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/square_shape/meshes/square_shape.mtl
+[6.719s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/square_shape/meshes/square_shape.obj
+[6.785s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/square_shape/model.config
+[6.811s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/square_shape/model.sdf
+[6.840s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/triangle_shape/meshes/triangle_shape.mtl
+[6.863s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/triangle_shape/meshes/triangle_shape.obj
+[6.889s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/triangle_shape/model.config
+[6.935s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/triangle_shape/model.sdf
+[7.000s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/brick.mtl
+[7.050s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/brick.obj
+[7.076s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/leaf.jpg
+[7.107s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/leaf.jpg.002.jpg
+[7.157s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/leaf.jpg.002.jpg.001.jpg
+[7.226s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/leaf.jpg.004.jpg
+[7.297s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/soil-texture-png-3.png
+[7.342s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/trough.dae
+[7.398s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/truf.mtl
+[7.456s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/truf.obj
+[7.503s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/truf_brick.mtl
+[7.558s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/truf_brick.obj
+[7.635s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/truf_brick_cone.dae
+[7.676s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/truf_brick_cone.dae.bck
+[7.724s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/truf_brick_cone.mtl
+[7.767s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/meshes/truf_brick_cone.obj
+[7.842s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/model.config
+[7.879s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/trough/model.sdf
+[7.909s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/LAWN.jpg
+[7.944s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.001.jpg
+[7.992s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.002.jpg
+[8.027s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.003.jpg
+[8.068s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.004.jp.jpg
+[8.102s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.004.jpg
+[8.129s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.005.jpg
+[8.162s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.006.jpg
+[8.244s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.007.jpg
+[8.299s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.008.jpg
+[8.334s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.009.jpg
+[8.417s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.010.jpg
+[8.479s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.011.jpg
+[8.558s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.012.jpg
+[8.600s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.013.jpg
+[8.641s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.014.jpg
+[8.686s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.015.jpg
+[8.730s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.016.jpg
+[8.795s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.017.jpg
+[8.892s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.018.jpg
+[8.962s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.019.jpg
+[9.003s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.020.jpg
+[9.041s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.021.jpg
+[9.092s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.022.jpg
+[9.121s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.023.jpg
+[9.156s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.024.jpg
+[9.206s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.025.jpg
+[9.235s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.026.jpg
+[9.268s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.027.jpg
+[9.307s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.028.jpg
+[9.384s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.029.jpg
+[9.446s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.030.jpg
+[9.474s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/bernd-dittrich-mapUehHSHYU-unsplash.jpg
+[9.542s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/branch-texture-png.png
+[9.596s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/greenhouse_wooden_floor.png
+[9.638s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/ground.jpg
+[9.727s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/miha-rekar-LIel8q1XQsE-unsplash.jpg
+[9.777s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/miha-rekar-LIel8q1XQsE-unsplash.jpg.001.jpg
+[9.809s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/tilebark.jpg
+[9.852s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/warehouse_boundary.dae
+[9.889s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/warehouse_boundary_glass_cover.dae
+[9.959s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/warehouse_boundary_glass_cover_modified.dae
+[10.019s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/warehouse_boundary_modified.dae
+[10.122s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/warehouse_floor.jpg
+[10.153s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/backup/warningTape.png
+[10.224s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg.030.j.jpg
+[10.310s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/bernd-dittrich-mapUehHSHYU-unsplash.jpg
+[10.357s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/greenhouse_wooden_floor.png.001.png
+[10.451s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/ground.jpg.001.jpg
+[10.518s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/miha-rekar-LIel8q1XQsE-unsplash.jpg
+[10.584s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/warehouse_boundary.dae
+[10.633s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/warehouse_boundary_glass_cover.dae
+[10.667s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/warehouse_boundary_glass_cover_modified.dae
+[10.731s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/warehouse_boundary_modified.dae
+[10.810s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/meshes/warningTape.png
+[10.872s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/model.config
+[10.919s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_boundary/model.sdf
+[11.000s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_divider/meshes/LAWN.jpg
+[11.049s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_divider/meshes/warehouse_divider.dae
+[11.127s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_divider/model.config
+[11.175s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/warehouse_divider/model.sdf
+[11.248s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/water_tank/water_tank.mtl
+[11.285s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/water_tank/water_tank.obj
+[11.333s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/window/model.config
+[11.378s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//models/window/model.sdf
+[11.463s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//config/SkyX_Moon.fragment
+[11.514s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//config/SkyX_Moon.png
+[11.556s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//config/package_link.json
+[11.611s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse//plugins/libSampleSystem.so
+[11.678s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/ament_index/resource_index/package_run_dependencies/eyantra_warehouse
+[11.744s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/ament_index/resource_index/parent_prefix_path/eyantra_warehouse
+[11.788s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse/environment/ament_prefix_path.sh
+[11.829s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse/environment/ament_prefix_path.dsv
+[11.865s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse/environment/path.sh
+[11.919s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse/environment/path.dsv
+[11.957s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse/local_setup.bash
+[12.001s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse/local_setup.sh
+[12.038s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse/local_setup.zsh
+[12.069s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse/local_setup.dsv
+[12.119s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.dsv
+[12.146s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/ament_index/resource_index/packages/eyantra_warehouse
+[12.182s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse/cmake/eyantra_warehouseConfig.cmake
+[12.224s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse/cmake/eyantra_warehouseConfig-version.cmake
+[12.252s] -- Symlinking: /home/safwan/krishi_cobot_ws/install/eyantra_warehouse/share/eyantra_warehouse/package.xml
+[12.287s] Invoked command in '/home/safwan/krishi_cobot_ws/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/safwan/krishi_cobot_ws/build/eyantra_warehouse
